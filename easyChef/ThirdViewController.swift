@@ -32,4 +32,18 @@ class ThirdViewController: UIViewController {
     }
     */
 
+    @IBAction func myButt(_ sender: UIButton) {
+        let url = URL(string: "http://jsonplaceholder.typicode.com/users/2")
+        if let usableUrl = url {
+            let request = URLRequest(url: usableUrl)
+            let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
+                if let data = data {
+                    if let stringData = String(data: data, encoding: String.Encoding.utf8) {
+                        print(stringData) //JSONSerialization
+                    }
+                }
+            })
+            task.resume()
+        }
+    }
 }
