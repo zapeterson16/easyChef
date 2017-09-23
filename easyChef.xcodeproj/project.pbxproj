@@ -16,6 +16,7 @@
 		92790FAC1F76DA840082CE7F /* easyChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92790FAB1F76DA840082CE7F /* easyChefTests.swift */; };
 		92790FB71F76DA840082CE7F /* easyChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92790FB61F76DA840082CE7F /* easyChefUITests.swift */; };
 		92790FC51F7701510082CE7F /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92790FC41F7701510082CE7F /* Ingredient.swift */; };
+		92790FC71F7706C10082CE7F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92790FC61F7706C10082CE7F /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		92790FB61F76DA840082CE7F /* easyChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easyChefUITests.swift; sourceTree = "<group>"; };
 		92790FB81F76DA840082CE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92790FC41F7701510082CE7F /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		92790FC61F7706C10082CE7F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				92790FC41F7701510082CE7F /* Ingredient.swift */,
 				92790F981F76DA840082CE7F /* SecondViewController.swift */,
 				92790F9A1F76DA840082CE7F /* Main.storyboard */,
+				92790FC61F7706C10082CE7F /* ThirdViewController.swift */,
 				92790F9D1F76DA840082CE7F /* Assets.xcassets */,
 				92790F9F1F76DA840082CE7F /* LaunchScreen.storyboard */,
 				92790FA21F76DA840082CE7F /* Info.plist */,
@@ -267,6 +270,7 @@
 			files = (
 				92790FC51F7701510082CE7F /* Ingredient.swift in Sources */,
 				92790F991F76DA840082CE7F /* SecondViewController.swift in Sources */,
+				92790FC71F7706C10082CE7F /* ThirdViewController.swift in Sources */,
 				92790F951F76DA840082CE7F /* AppDelegate.swift in Sources */,
 				92790F971F76DA840082CE7F /* FirstViewController.swift in Sources */,
 			);

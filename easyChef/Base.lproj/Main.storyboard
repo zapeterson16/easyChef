@@ -184,7 +184,7 @@
         <!--Recipies-->
         <scene sceneID="Ssq-L7-taq">
             <objects>
-                <viewController id="ddb-3T-lS7" sceneMemberID="viewController">
+                <viewController id="ddb-3T-lS7" customClass="ThirdViewController" customModule="easyChef" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZwQ-ay-2pv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
