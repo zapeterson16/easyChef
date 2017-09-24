@@ -173,6 +173,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUQ-9B-HSz">
+                                <rect key="frame" x="40" y="379" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sanity Check"/>
+                                <connections>
+                                    <action selector="check:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="jlt-0g-nnU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="this should be the amount of proteins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Mw-eR-9ol">
+                                <rect key="frame" x="40" y="436" width="286" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -186,6 +201,7 @@
                         <outlet property="carb_input" destination="mzK-i2-e1N" id="Mqt-tZ-JsN"/>
                         <outlet property="fat_input" destination="mEC-dJ-Rsz" id="nng-h5-Y2I"/>
                         <outlet property="protein_input" destination="iik-vm-354" id="ZOE-12-qpr"/>
+                        <outlet property="sanity_check" destination="2Mw-eR-9ol" id="w8p-5L-Jwt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
