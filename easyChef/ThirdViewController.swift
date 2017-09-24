@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ThirdViewController: UIViewController {
 
@@ -33,17 +34,23 @@ class ThirdViewController: UIViewController {
     */
 
     @IBAction func myButt(_ sender: UIButton) {
-        let url = URL(string: "http://jsonplaceholder.typicode.com/users/2")
-        if let usableUrl = url {
-            let request = URLRequest(url: usableUrl)
-            let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
-                if let data = data {
-                    if let stringData = String(data: data, encoding: String.Encoding.utf8) {
-                        print(stringData) //JSONSerialization
-                    }
+        Alamofire.request(
+            "https://api.edamam.com/search",
+            parameters: ["q": "eggs, bananas, pepper, tomatoes, bread", "app_id": "fc990387", "app_key":
+                "90160d5f8ca87589e90de4d7d8f97939"]
+            )
+            .responseJSON { response in
+                guard response.result.isSuccess else {
+                    print("Error while fetching tags: \(response.result.error)")
+                    return
                 }
-            })
-            task.resume()
+                
+                guard let responseJSON = response.result.value as? [String: Any] else {
+                    print("Invalid tag information received from the service")
+                    return
+                }
+                
+                print(responseJSON)
         }
-    }
+}
 }
