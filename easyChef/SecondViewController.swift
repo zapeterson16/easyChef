@@ -28,6 +28,9 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        protein_input.text = String(myDefaults.double(forKey: protein_calorie_input))
+        carb_input.text = String(myDefaults.double(forKey: carb_calorie_input))
+        fat_input.text = String(myDefaults.double(forKey: carb_calorie_input))
     }
 
     override func didReceiveMemoryWarning() {
