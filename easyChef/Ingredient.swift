@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ingredient{
+class Ingredient{
     var name: String
     var protein: Int
     var carbs: Int

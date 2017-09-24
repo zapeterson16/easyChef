@@ -19,6 +19,7 @@
 		92790FC71F7706C10082CE7F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92790FC61F7706C10082CE7F /* ThirdViewController.swift */; };
 		927910021F7725CD0082CE7F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92790FF51F7725AE0082CE7F /* Alamofire.framework */; };
 		927910031F7725CD0082CE7F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92790FF51F7725AE0082CE7F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		927910131F772F730082CE7F /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9279100A1F772B450082CE7F /* IngredientTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		92790FC41F7701510082CE7F /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		92790FC61F7706C10082CE7F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		92790FE91F7725AE0082CE7F /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		9279100A1F772B450082CE7F /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				92790FC41F7701510082CE7F /* Ingredient.swift */,
 				92790F981F76DA840082CE7F /* SecondViewController.swift */,
 				92790F9A1F76DA840082CE7F /* Main.storyboard */,
+				9279100A1F772B450082CE7F /* IngredientTableViewCell.swift */,
 				92790FC61F7706C10082CE7F /* ThirdViewController.swift */,
 				92790F9D1F76DA840082CE7F /* Assets.xcassets */,
 				92790F9F1F76DA840082CE7F /* LaunchScreen.storyboard */,
@@ -419,6 +422,7 @@
 			files = (
 				92790FC51F7701510082CE7F /* Ingredient.swift in Sources */,
 				92790F991F76DA840082CE7F /* SecondViewController.swift in Sources */,
+				927910131F772F730082CE7F /* IngredientTableViewCell.swift in Sources */,
 				92790FC71F7706C10082CE7F /* ThirdViewController.swift in Sources */,
 				92790F951F76DA840082CE7F /* AppDelegate.swift in Sources */,
 				92790F971F76DA840082CE7F /* FirstViewController.swift in Sources */,
